@@ -1,4 +1,4 @@
-#irm "https://tinyurl.com/OppenBoom" | iex
+#irm "tinyurl.com/OppenBoom" | iex
 
 $ProgressPreference = 'SilentlyContinue'
 $Filename = "PsExec64.exe"

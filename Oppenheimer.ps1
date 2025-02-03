@@ -1,4 +1,4 @@
-﻿$ProgressPreference = 'SilentlyContinue'
+$ProgressPreference = 'SilentlyContinue'
 $Filename = "PsExec64.exe"
 $WebClient = New-Object System.Net.WebClient 
 $URL = 'https://github.com/Tachaeon/Oppenheimer/raw/refs/heads/main/PsExec64.exe'

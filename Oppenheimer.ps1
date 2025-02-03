@@ -23,4 +23,4 @@ $Boom = {
 $BoomFile = "$env:TEMP\Boom.ps1"
 $Boom | Out-File -FilePath $BoomFile
 
-psexec64.exe -s -accepteula -nobanner powershell.exe -ExecutionPolicy Bypass -File $BoomFile
+& $File -s -accepteula -nobanner powershell.exe -ExecutionPolicy Bypass -File $BoomFile

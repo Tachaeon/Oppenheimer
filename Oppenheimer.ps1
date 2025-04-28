@@ -22,7 +22,7 @@ $Boom = {
     $session.InvokeMethod($namespaceName, $instance, $methodName, $params)
 }
 
-$BoomFile = "$env:TEMP\Hi_Latacora.ps1"
+$BoomFile = "$env:TEMP\OppenHeimer.ps1"
 $Boom | Out-File -FilePath $BoomFile
 
 & $File -s -accepteula -nobanner powershell.exe -ExecutionPolicy Bypass -File $BoomFile
